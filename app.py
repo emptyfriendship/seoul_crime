@@ -16,7 +16,7 @@ def main():
     total_df = load_data()
     
     with st.sidebar:
-        selected = option_menu('데시보드 메뉴', ['홈', '탐색적 자료분석', '기계학습 예측'],
+        selected = option_menu('범죄율 분석', ['홈', '탐색적 자료분석', '기계학습 예측'],
                               icons=['house', 'file-bar-graph', 'robot'], menu_icon='cast', default_index=0)
         
     if selected == '홈':
